@@ -1,0 +1,84 @@
+/* Дополнительные стили */
+title {
+    color: #441717; /* Цвет текста */
+    font-size: 24px; /* Размер текста */
+    font-family: Arial, sans-serif; /* Шрифт */
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #441717;
+    padding-top: 20px;
+    background-image: url('../image/arthas.gif'); /* URL фотографии */
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Чтобы контейнер выделялся на фоне */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-top: 30px;
+}
+h2 {
+    color: #540707;
+    margin-top: 0;
+    border-bottom: 1px solid #540707;
+    padding-bottom: 10px;
+}
+.row {
+    margin-bottom: 20px;
+}
+.col-md-6 {
+    font-size: 16px;
+}        
+.logo {
+    float: right; /* Плавающее позиционирование справа */
+    max-width: 100%; /* Изображение подстраивается под размер контейнера */
+    height: 55px; /* Позволяет изображению сохранять пропорции */
+    display: block;
+    /*max-width: 100%;
+    width: 100px;
+    height: 55px;
+    margin-left: -55px; /* Добавляет небольшой отступ между заголовком и логотипом */
+    vertical-align: middle;
+}
+.my_photo1 {
+    background-image: url('../image/image1.jpg'); /* Путь к вашему изображению */
+    background-size: cover; /* Растягиваем изображение на всю площадь */
+    width: 100%; /* Ширина элемента, чтобы он занимал всю доступную ширину */
+    height: 400px; /* Высота вашего изображения */
+    
+}
+.my_photo2 {
+    background-image: url('../image/image2.jpg'); /* Путь к вашему изображению */
+    background-size: cover; /* Растягиваем изображение на всю площадь */
+    width: 100%; /* Ширина элемента, чтобы он занимал всю доступную ширину */
+    height: 400px; /* Высота вашего изображения */
+    
+}
+.my_photo3 {
+    background-image: url('../image/image3.jpg'); /* Путь к вашему изображению */
+    background-size: cover; /* Растягиваем изображение на всю площадь */
+    width: 100%; /* Ширина элемента, чтобы он занимал всю доступную ширину */
+    height: 400px; /* Высота вашего изображения */
+    
+}
+.my_photo4 {
+    background-image: url('../image/image4.jpg'); /* Путь к вашему изображению */
+    background-size: cover; /* Растягиваем изображение на всю площадь */
+    width: 100%; /* Ширина элемента, чтобы он занимал всю доступную ширину */
+    height: 400px; /* Высота вашего изображения */
+    
+}
+.title_photo{
+    text-align: center;
+}
+.nav_bar{
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav_text{
+    display: flex;
+    align-items: center;
+    justify-self: right;
+}
