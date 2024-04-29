@@ -1,4 +1,3 @@
-/* Дополнительные стили */
 title {
     color: #441717; /* Цвет текста */
     font-size: 24px; /* Размер текста */
@@ -43,24 +42,24 @@ h2 {
     vertical-align: middle;
 }
 .my_photo1 {
-    background-image: url('../image/image1.jpg'); /* Путь к вашему изображению */
+    background-image: url('../image/image1.jpg'); /* Путь к изображению */
     background-size: cover; /* Растягиваем изображение на всю площадь */
     width: 100%; /* Ширина элемента, чтобы он занимал всю доступную ширину */
-    height: 400px; /* Высота вашего изображения */
+    height: 400px; /* Высота изображения */
     
 }
 .my_photo2 {
-    background-image: url('../image/image2.jpg'); /* Путь к вашему изображению */
+    background-image: url('../image/image2.jpg'); /* Путь к изображению */
     background-size: cover; /* Растягиваем изображение на всю площадь */
     width: 100%; /* Ширина элемента, чтобы он занимал всю доступную ширину */
-    height: 400px; /* Высота вашего изображения */
+    height: 400px; /* Высота  изображения */
     
 }
 .my_photo3 {
-    background-image: url('../image/image3.jpg'); /* Путь к вашему изображению */
+    background-image: url('../image/image3.jpg'); /* Путь к изображению */
     background-size: cover; /* Растягиваем изображение на всю площадь */
     width: 100%; /* Ширина элемента, чтобы он занимал всю доступную ширину */
-    height: 400px; /* Высота вашего изображения */
+    height: 400px; /* Высота  изображения */
     
 }
 .my_photo4 {
@@ -81,4 +80,25 @@ h2 {
     display: flex;
     align-items: center;
     justify-self: right;
+}
+/* Дополнительные стили для кнопки */
+.button {
+    text-align: center; /* Центрируем кнопку */
+}
+
+.button button {
+    padding: 10px 20px; /* Задаем отступы */
+    font-size: 16px; /* Задаем размер шрифта */
+    background-color: #540707; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    border: none; /* Убираем границы кнопки */
+    cursor: pointer; /* Делаем курсор указателем */
+    border-radius: 5px; /* Закругляем углы кнопки */
+}
+.arthas-bg {
+    background-image: url('../image/arthas.gif');
+}
+
+.dance-bg {
+    background-image: url('../image/dance.gif');
 }
